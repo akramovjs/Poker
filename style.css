@@ -75,11 +75,12 @@
     align-items: center;
 }
 
-img {
+
+.game_img
+{
     width: 95%;
     height: 95%;
     margin: 0 auto;
-
 }
 
 .game {
@@ -182,7 +183,7 @@ img {
     border-radius: 20px;
     transition: 2s;
 }
-.rasm
+.jons
 {
     width: 400px;
     margin-left: 5px;
