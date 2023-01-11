@@ -448,6 +448,9 @@ ul.loca li {
     flex-wrap: wrap;
     align-items: center;
 }
+input{
+    outline: none;
+}
 
 
 
