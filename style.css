@@ -86,7 +86,7 @@ nav{
     top: 0;
     left: -1000px;
 }
-ul li:first-child
+ul .nav_link:first-child
 {
     background-color: transparent;
     text-align: end;
@@ -95,7 +95,7 @@ ul li:first-child
     padding-right: 30px;
 
 }
-ul li
+ul .nav_link
 {
     width: 100%;
     margin: 0 auto;
@@ -110,16 +110,16 @@ ul li
     padding-left: 10px;
 
 }
-ul li:hover
+ul .nav_link:hover
 {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
 }
-ul li a
+ul .nav_link a
 {
     text-decoration: none;
     color: #000;
 }
-ul li:first-child:hover
+ul .nav_link:first-child:hover
 {
     background-image: linear-gradient(to bottom, transparent, transparent, transparent);
 
