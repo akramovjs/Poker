@@ -20,6 +20,21 @@
     font-family: 'Raleway', sans-serif;
 
 }
+.big 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+}
+.big img
+{
+    width: 300px;
+}
 
 /* Site Body start */
 
@@ -182,7 +197,7 @@ nav{
 
 .imgDiv {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
-    width: 350px;
+    width: 90%;
     height: 350px;
     background-color: #f8eca6;
     margin: 0 auto;

@@ -23,7 +23,14 @@ const animatsiya = () =>{
     })
     ext.addEventListener("click", ()=>{
         nav.classList.remove("nav-active")
-    })
+    })    
 }
 
 animatsiya();
+
+var loader = document.querySelector(".big");
+window.addEventListener("DOMContentLoaded", function df() {
+    setTimeout(() => {
+        loader.style.display = "none";
+    }, 4000);
+})
