@@ -1,7 +1,7 @@
 const animatsiya = () =>{
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav");
-    const navLinks = document.querySelectorAll(".nav-links li");
+    const navLinks = document.querySelectorAll(".nav-links_a li");
     const ext = document.querySelector(".ext")
 
 

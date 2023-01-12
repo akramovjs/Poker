@@ -29,9 +29,126 @@
     background-color: #1b0905;
 }
 
+/* header qismi start */
+.head
+{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/bg_main.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+    height: 120px;
+    
+}
+.button
+{
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-left: 900px;
+    /* margin: 100px; */
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+
+}
+.logo
+{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+.nav_bn
+{
+    display: flex;
+    margin-left: 100px;
+}
+.burger
+{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.nav
+{
+    width: 21%;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -10000px;
+    z-index: 100;
+}
+.nav-links_a
+{
+    width: 100%;
+}
+.nav-links_a li:first-child
+{
+    background-color: transparent;
+    text-align: end;
+    justify-content: flex-end;
+    border: none;
+    padding-right: 30px;
+
+}
+.nav-links_a li
+{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+    list-style: none;
+    height: 50px;
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.nav-links_a li:hover
+{
+    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+}
+.nav-links_a li a
+{
+    text-decoration: none;
+    color: #000;
+}
+.nav-links_a li:first-child:hover
+{
+    background-image: linear-gradient(to bottom, transparent, transparent, transparent);
+
+}
+.ext
+{
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-active
+{
+    left: 0;
+}
+/*header qismi end*/
+.ourcasino h2
+{
+    font-size: 60px;
+}
+
 .ourcasino {
     /* color: #f8eca6; */
-    font-size: 40px;
+    font-size: 60px;
     width: 60%;
     height: 250px;
     /* background-color: red; */
@@ -247,13 +364,15 @@
     width: 100%;
 }
 .top1{
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
 }
 .top2{
     display: flex;
     flex-direction: row;
     padding: 100px 0px;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
    
 }
 .top1 p{
@@ -275,24 +394,40 @@ hr{
     background-color: #ffea74;
     width: 400px;
     height: 1px;
-    margin-left: 370px;
+    /* margin-left: 370px; */
+    margin: 0 auto;
+}
+.bacra
+{
+    background-color:  #d7d7d4;
+    /* padding:  45px; */
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 100px;
+
+    /* align-items: center  ; */
 }
 .customer_text p{
-   background-color:  #d7d7d4;
-   padding: 90px 45px 150px 45px;
    text-align: center;
    color: #0c0c0b;
    font-size: 16px;
     line-height: 35px;
     font-weight: 500;
+
 }
 .customer_text{
     padding: 0px 70px;
     position: relative;
 }
 .customer_img{
-   position: absolute;
-   margin-left: 420px;
+   /* position: absolute; */
+   text-align: center;
+   /* margin-left: 420px; */
+   margin: 0 auto;
    margin-top: -100px;
 }
 .cutomer_name h4{
@@ -325,7 +460,8 @@ hr{
     color: #f9fcfd;
     width: 100%;
     width: 520px;
-    margin-left: 300px;
+    margin: 0 auto;
+    /* margin-left: 300px; */
     margin-top: 50px;
 }
 .but{
@@ -453,7 +589,17 @@ input{
     outline: none;
 }
 
+.man
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.activex
+{
+    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
 
+}
 
 
     
