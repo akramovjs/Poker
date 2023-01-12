@@ -8,6 +8,7 @@
     src: url(fonts/Poppins-Bold.ttf);
 }
 
+
 @font-face {
     font-family: "weiggat";
     src: url(fonts/fontawesome-webfont.woff2);
@@ -177,6 +178,22 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.nowG
+{
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    transition: 1s;
+}
+.nowG:hover
+{
+    background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+    border-radius: 20px;
+}
 
 .hr {
     width: 60%;
@@ -197,7 +214,7 @@ nav{
 
 .imgDiv {
     background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
-    width: 90%;
+    width: 95%;
     height: 350px;
     background-color: #f8eca6;
     margin: 0 auto;
@@ -236,7 +253,6 @@ nav{
 .box_sw {
     width: 80%;
     height: 90%;
-    background-color: red;
     margin: 0 auto;
     border-radius: 40px;
     display: flex;
@@ -443,6 +459,14 @@ hr{
    text-align: center;
    /* margin-left: 420px; */
    margin: 0 auto;
+   width: 160px;
+   height: 160px;
+   background-image: linear-gradient(to bottom, #bc883d, #f5e47b, #bc883d);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   
    margin-top: -100px;
 }
 .cutomer_name h4{
